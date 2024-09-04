@@ -1,0 +1,223 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.password-manager {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  min-height: 100vh;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.app-logo {
+  height: 60px;
+}
+
+.top-container {
+  width: 1100px;
+  background-color: #5763a5;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.add-newpassword {
+  width: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #454f84;
+}
+
+.new-password-heading {
+  color: #f8fafc;
+  font-size: 24px;
+  font-family: 'Roboto';
+}
+
+.website-input-container {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.logo-container {
+  height: 50px;
+  width: 50px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.website-logo {
+  height: 30px;
+}
+
+.website-input-style {
+  width: 400px;
+  outline: none;
+}
+
+.add-button {
+  background-color: #0b69ff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+}
+
+.button-container {
+  text-align: right;
+  margin-right: 20px;
+}
+
+.password-manager-img {
+  height: 300px;
+}
+
+.bottom-container {
+  width: 1100px;
+  background-color: #5763a5;
+  border-radius: 10px;
+  height: 400px;
+  padding: 20px;
+}
+
+.password-search-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-container {
+  position: relative;
+}
+
+.search-icon {
+  position: relative;
+  height: 20px;
+  left: 30px;
+}
+
+.search-input {
+  position: relative;
+  padding-left: 20px;
+}
+
+.passwords-count {
+  color: #ffffff;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.show-password {
+  color: #ffffff;
+}
+
+.showpasswords-cont {
+  text-align: right;
+}
+.nopasswords-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-passwords {
+  color: #ffffff;
+}
+
+.password-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.password-item {
+  margin: 10px;
+}
+
+.password-card {
+  background-color: transparent;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #f8fafc;
+}
+
+.password-logo {
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.password-details {
+  flex-grow: 1;
+}
+
+.password-details p {
+  margin: 5px 0;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.nopasswords-image {
+  height: 250px;
+}
+
+.stars-image {
+  width: 40px;
+}
+
+.website {
+  color: #ffffff;
+}
+
+.username {
+  color: #ffffff;
+}
+
+.del-image {
+  height: 50px;
+}
+
+.passwords-count-length {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  color: #ffffff;
+}
+
+.password {
+  color: #ffffff;
+}
